@@ -1,7 +1,14 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "./utils/reset.scss";
 
-body {
-  background: $c-gray;
-}
+@import "./blocks/title.scss";
+@import "./blocks/header.scss";
+@import "./blocks/navigation.scss";
+@import "./blocks/menu.scss";
+@import "./blocks/main.scss";
+@import "./blocks/opening-hours.scss";
+@import "./blocks/events.scss";
+@import "./blocks/button.scss";
+@import "./blocks/online-resources.scss";
+@import "./blocks/contact.scss";
+@import "./blocks/form.scss";
+@import "./blocks/footer.scss";

@@ -1,0 +1,16 @@
+.navigation {
+  position: absolute;
+  right: 20px;
+  top: 36px;
+
+  &__phone-link {
+    display: inline-block;
+    width: 24px;
+    margin-right: 24px;
+  }
+
+  &__burger-menu {
+    display: inline-block;
+    width: 24px;
+  }
+}
